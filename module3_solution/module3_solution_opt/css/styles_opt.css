@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #BFB730; /**white**/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.navbar {
+  background-color: #FFF100; /**yellow **/
+  padding: 0;
+}
+.navbar-brand h1 { /*Text "Food LLC" */
+  color: #fff;
+  font-size: 1.3em;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar button.navbar-toggler { /*border of the whole button*/
+  border: 2px solid #fff;
+  margin-right: 10px;
+}
+.navbar-light .navbar-toggler-icon { /*change icon color*/
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.nav-link { /*deco of the nav-items*/
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #FFE740;
+}
+/** END OF HEADER **/
+
+/**MAIN CONTENT**/
+#main-content h2 { /*deco of "Our menu"*/
+  margin: 20px auto 40px;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: bold;
+}
+section {
+  background-color: #3B0470; /**purple**/
+  padding: 0px 20px 20px 20px;
+  font-size: 14px;
+}
+h3{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+/**END OF MAIN CONTENT**/
+
+@media (max-width: 767px) { 
+  section {      /*add a little more margin to the main-content*/ 
+    margin: 0 50px 50px 50px;
+  }
+}
